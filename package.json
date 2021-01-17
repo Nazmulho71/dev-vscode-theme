@@ -1,0 +1,49 @@
+{
+  "name": "dev-theme",
+  "displayName": "Dev Theme",
+  "description": "The theme that never die!",
+  "publisher": "NazmulHossain",
+  "author": {
+    "name": "Hossain"
+  },
+  "version": "0.0.9",
+  "engines": {
+    "vscode": "^1.46.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Nazmulho71/dev-vscode-theme"
+  },
+  "bugs": {
+    "url": "https://github.com/Nazmulho71/dev-vscode-theme/issues"
+  },
+  "galleryBanner": {
+    "color": "#10131f",
+    "theme": "dark"
+  },
+  "icon": "images/icon/logo_250x250.png",
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "Dev Theme",
+    "Dark Theme",
+    "VSCode Theme",
+    "Developer",
+    "Nazmul",
+    "NazmulHossain",
+    "blue",
+    "orange",
+    "Cobalt",
+    "dark blue"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Dev Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dev-theme.json"
+      }
+    ]
+  }
+}
